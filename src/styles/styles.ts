@@ -51,11 +51,57 @@ export const Styles = createGlobalStyle`
         }
     }
 
+    
+    h5 {
+        font-family: 'Motiva Sans Bold', serif;
+        color: #18216d;
+        font-size: 32px;
+        line-height: 1.18;
+        text-align: center;
+        padding: 0.6rem;
+
+        @media only screen and (max-width: 890px) {
+          font-size: 26.8px;
+        }
+      
+        @media only screen and (max-width: 414px) {
+          font-size: 18.2px;
+        }
+}
+
+    
+    h4 {
+        font-family: 'Motiva Sans Bold', serif;
+        color:rgb(40, 46, 105);
+        font-size: 20px;
+        line-height: 1.18;
+
+        @media only screen and (max-width: 890px) {
+          font-size: 16.8px;
+        }
+      
+        @media only screen and (max-width: 414px) {
+          font-size: 11.4px;
+        }
+    
+}
+         h3 {
+        font-family: 'Motiva Sans Thin', serif;
+        color:rgb(87, 88, 98);
+        font-size: 14px;
+        line-height: 1.18;
+
+        @media only screen and (max-width: 890px) {
+          font-size: 13.4px;
+        }
+      
+        @media only screen and (max-width: 414px) {
+          font-size: 8px;
+        }
+    
+}
     h1,
     h2,
-    h3,
-    h4,
-    h5,
     h6 {
         font-family: 'Motiva Sans Bold', serif;
         color: #18216d;

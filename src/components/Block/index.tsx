@@ -10,9 +10,9 @@ interface Props {
 const Block = ({ title, content, t }: Props) => {
   return (
     <Container>
-      <h6>{t(title)}</h6>
+      <h6 style={{fontSize: "3rem"}}>{t(title)}</h6>
       <TextWrapper>
-        <Content>{t(content)}</Content>
+        <Content  style={{ whiteSpace: 'pre-line' }}>{t(content)}</Content>
       </TextWrapper>
     </Container>
   );

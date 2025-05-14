@@ -1,16 +1,19 @@
 import { useState } from "react";
 import { notification } from "antd";
+import { ok } from "assert";
 
 interface IValues {
   name: string;
   email: string;
   message: string;
+  phone: string;
 }
 
 const initialValues: IValues = {
   name: "",
   email: "",
   message: "",
+  phone: "",
 };
 
 export const useForm = (validate: { (values: IValues): IValues }) => {
@@ -28,18 +31,12 @@ export const useForm = (validate: { (values: IValues): IValues }) => {
     const errors = validate(values);
     setFormState((prevState) => ({ ...prevState, errors }));
 
-    const url = ""; // Fill in your API URL here
+    const url = "https://api.telegram.org/bot6219383439:AAHpWp7eOb0c1KaoDyyuS7JGVq_rwv10B-c/sendMessage?chat_id=-1002259367304&text="; // Fill in your API URL here
 
     try {
       if (Object.values(errors).every((error) => error === "")) {
-        const response = await fetch(url, {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify(values),
-        });
-
+        //const response = {ok: true}
+        const response = await fetch(url + JSON.stringify(values));
         if (!response.ok) {
           notification["error"]({
             message: "Error",
