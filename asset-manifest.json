@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "https://lewishoty.github.io/autothinkers/static/css/main.37ddbf14.css",
-    "main.js": "https://lewishoty.github.io/autothinkers/static/js/main.c1d0b45b.js",
+    "main.js": "https://lewishoty.github.io/autothinkers/static/js/main.5c63a37a.js",
     "static/js/145.d762ee8c.chunk.js": "https://lewishoty.github.io/autothinkers/static/js/145.d762ee8c.chunk.js",
     "static/js/676.2edc5c2f.chunk.js": "https://lewishoty.github.io/autothinkers/static/js/676.2edc5c2f.chunk.js",
     "static/css/215.28ca8d8c.chunk.css": "https://lewishoty.github.io/autothinkers/static/css/215.28ca8d8c.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/614.084c75c7.chunk.js": "https://lewishoty.github.io/autothinkers/static/js/614.084c75c7.chunk.js",
     "index.html": "https://lewishoty.github.io/autothinkers/index.html",
     "main.37ddbf14.css.map": "https://lewishoty.github.io/autothinkers/static/css/main.37ddbf14.css.map",
-    "main.c1d0b45b.js.map": "https://lewishoty.github.io/autothinkers/static/js/main.c1d0b45b.js.map",
+    "main.5c63a37a.js.map": "https://lewishoty.github.io/autothinkers/static/js/main.5c63a37a.js.map",
     "145.d762ee8c.chunk.js.map": "https://lewishoty.github.io/autothinkers/static/js/145.d762ee8c.chunk.js.map",
     "676.2edc5c2f.chunk.js.map": "https://lewishoty.github.io/autothinkers/static/js/676.2edc5c2f.chunk.js.map",
     "215.28ca8d8c.chunk.css.map": "https://lewishoty.github.io/autothinkers/static/css/215.28ca8d8c.chunk.css.map",
@@ -24,6 +24,6 @@
   },
   "entrypoints": [
     "static/css/main.37ddbf14.css",
-    "static/js/main.c1d0b45b.js"
+    "static/js/main.5c63a37a.js"
   ]
 }
