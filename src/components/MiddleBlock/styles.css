@@ -25,6 +25,16 @@
     flex-direction: row;
   }
 
+  .vidplayer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: "100%";
+    max-width: "1200px";
+    aspect-ratio: "16 / 9";
+    position: "relative";
+  }
+
   @media (max-width: 1027px) {
     .roworcol {
         display: flex;
